@@ -391,7 +391,7 @@
 
         <dependency>
             <groupId>com.blazebit</groupId>
-            <artifactId>blaze-persistence-integration-hibernate-6.0</artifactId>
+            <artifactId>blaze-persistence-integration-hibernate-6.2</artifactId>
             <version>${blaze-persistence.version}</version>
         </dependency>
 
@@ -487,7 +487,7 @@
         <logback.version>1.2.3</logback.version>
         <commons-lang.version>3.12.0</commons-lang.version>
         <jakarta.persistence.version>3.1.0</jakarta.persistence.version>
-        <hibernate.version>6.1.7.Final</hibernate.version>
+        <hibernate.version>6.2.5.Final</hibernate.version>
         <hibernate.validator.version>6.2.1.Final</hibernate.validator.version>
         <javassist.version>3.18.1-GA</javassist.version>
         <ehcache.version>3.10.0</ehcache.version>
@@ -515,14 +515,14 @@
 
         <aspectj.version>1.9.19</aspectj.version>
         <spring.version>6.0.8</spring.version>
-        <spring-data.version>3.0.7</spring-data.version>
+        <spring-data.version>3.0.5</spring-data.version>
 
         <jackson.version>2.12.7.1</jackson.version>
 
         <flyway.version>6.4.4</flyway.version>
         <hypersistence-utils.version>3.5.1</hypersistence-utils.version>
 
-        <blaze-persistence.version>1.6.7</blaze-persistence.version>
+        <blaze-persistence.version>1.6.9</blaze-persistence.version>
 
         <hypersistence-optimizer.version>2.4.2</hypersistence-optimizer.version>
 
@@ -555,7 +555,7 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>${maven-surefire-plugin.version}</version>
                 <configuration>
-                    <argLine>-Xms1024m -Xmx1024m -DObjectStoreEnvironmentBean.objectStoreDir=${project.build.directory}</argLine>
+                    <argLine>-Xms1024m -Xmx1024m</argLine>
                 </configuration>
             </plugin>
         </plugins>
